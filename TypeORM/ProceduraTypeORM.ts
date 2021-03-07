@@ -157,7 +157,7 @@ export class ProceduraTypeORM extends Procedura {
     async Menu() {
         let esco: boolean = false;
         console.log("1: Print struttura");
-        console.log("2: ..");
+        console.log("2: Aggiungi elemento");
         const tmp = await chiedi({ name: "scelta", type: "number", message: "digita la scelta : " });
         switch (tmp.scelta) {
             case 0:
@@ -170,6 +170,7 @@ export class ProceduraTypeORM extends Procedura {
                 break;
             case 2:
                 console.log('2..');
+                
                 break;
             default:
                 break;
