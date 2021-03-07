@@ -1,0 +1,17 @@
+{
+    "src": {
+        "app": {
+            "attori": {},
+            "dipendenze": {},
+            "entita": {},
+            "viste": {}
+        },
+        "migration": {},
+        "subscriber": {}
+    },
+    "tools": {},
+    "database": {
+        "costrutto": ""
+    },
+    "index": {}
+}
